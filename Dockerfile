@@ -1,8 +1,8 @@
 FROM ruby:2.7-alpine
 
 LABEL version="2.0.1"
-LABEL repository="https://github.com/amoeric/jekyll-action"
-LABEL homepage="https://github.com/amoeric/jekyll-action"
+LABEL repository="https://github.com/amoeric/docker_for_jekyll"
+LABEL homepage="https://github.com/amoeric/docker_for_jekyll"
 LABEL maintainer="Amoeric <amoeric@github.com>"
 
 RUN apk add --update nodejs npm
